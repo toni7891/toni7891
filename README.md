@@ -8,6 +8,9 @@
   <img src="https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-Scripting-121011?logo=gnubash&logoColor=white" />
 </p>
+<p align="center">
+  <img src="">
+</p>
 
 ---
 
@@ -85,7 +88,7 @@ Studying and practicing:
 ---
 
 ## 💡 Engineering Philosophy
-
+> "the unspoken in builing phase, comes up in deployment"
 > "If you can't deploy it, automate it, and scale it — you don't fully understand it."
 
 ---
