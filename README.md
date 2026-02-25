@@ -43,7 +43,7 @@ I focus on understanding systems deeply — from networking fundamentals to scal
 The homelab environment is used to model infrastructure behavior, validate configurations, and strengthen operational understanding under controlled conditions.
 
 <p align="Center">
-  <img src ="devops-course/my first website/HomeNet.drawio.png">
+  <img src ="https://github.com/toni7891/devops-course/blob/2718947a3c0d4a6edc6aa61f726d1e8e136a07f5/my%20first%20website/HomeNet.drawio.png">
 </p>
 
 ---
