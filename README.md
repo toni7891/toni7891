@@ -26,15 +26,21 @@ I focus on understanding systems deeply — from networking fundamentals to scal
 
 ## 🏗 Homelab & Infrastructure Projects
 
-- Ubuntu environments via Docker (Apple Silicon ARM)
-- Networking & VLSM subnetting labs
-- DNS-level filtering with Pi-hole
-- Raspberry Pi infrastructure experiments
-- Git workflow simulations
-- CI/CD practice environments
-- Service deployment & troubleshooting scenarios
+- Designed isolated Ubuntu-based container environments for reproducible development and testing (ARM architecture)
+- Designed multi-router and multi-switch topologies using Cisco Cisco Catalyst 2960, Cisco SG200-18...
+- Configured static and dynamic routing (OSPF)
+- Implemented VLAN segmentation and inter-VLAN routing
+- Configured trunking (802.1Q) and access layer switching
+- Implemented redundancy mechanisms (STP concepts, gateway redundancy scenarios)
+- Validated connectivity, failover behavior, and traffic flow through structured testing
+- Modeled network segmentation scenarios including VLSM-based subnet planning and traffic isolation
+- Implemented local DNS filtering and traffic control mechanisms
+- Built Raspberry Pi-based infrastructure services for network-level experimentation
+- Simulated deployment pipelines and failure scenarios to validate system behavior
+- Practiced container lifecycle management and environment reproducibility
+- Conducted troubleshooting exercises focused on networking, permissions, and service reliability
 
-My homelab is where theory becomes production-style thinking.
+The homelab environment is used to model infrastructure behavior, validate configurations, and strengthen operational understanding under controlled conditions.
 
 ---
 
