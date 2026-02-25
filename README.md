@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Tony Verin</h1>
+<h1 align="center">Hi, I'm Tony</h1>
 <h3 align="center">Junior DevOps Engineer | Infrastructure • Cloud • Automation</h3>
 
 <p align="center">
