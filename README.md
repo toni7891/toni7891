@@ -43,7 +43,7 @@ I focus on understanding systems deeply — from networking fundamentals to scal
 The homelab environment is used to model infrastructure behavior, validate configurations, and strengthen operational understanding under controlled conditions.
 
 <p align="Center">
-  <img src ="my first website/HomeNet.drawio.png">
+  <img src ="toni7891/my first website/HomeNet.drawio.png">
 </p>
 
 ---
