@@ -41,6 +41,9 @@ I focus on understanding systems deeply — from networking fundamentals to scal
 - Conducted troubleshooting exercises focused on networking, permissions, and service reliability
 
 The homelab environment is used to model infrastructure behavior, validate configurations, and strengthen operational understanding under controlled conditions.
+<p align="Center">
+  <img src ="https://drive.google.com/file/d/1cjjEir1pkjfI7m8woSvbyyORfW83va7B/view?usp=sharing">
+</p>
 
 ---
 
