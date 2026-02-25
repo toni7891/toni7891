@@ -11,7 +11,7 @@
 
 ---
 
-## 🚀 About Me
+##  About Me
 
 I’m a **Junior DevOps Engineer** building real-world infrastructure skills through hands-on labs, containerized environments, and cloud architecture practice.
 
