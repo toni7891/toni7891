@@ -8,9 +8,6 @@
   <img src="https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-Scripting-121011?logo=gnubash&logoColor=white" />
 </p>
-<p align="center">
-  <img src="">
-</p>
 
 ---
 
@@ -29,13 +26,13 @@ I focus on understanding systems deeply — from networking fundamentals to scal
 
 ## 🏗 Homelab & Infrastructure Projects
 
-- 🐳 Ubuntu environments via Docker (Apple Silicon ARM)
-- 🌐 Networking & VLSM subnetting labs
-- 🔐 DNS-level filtering with Pi-hole
-- 🖥 Raspberry Pi infrastructure experiments
-- 🔄 Git workflow simulations
-- ⚙️ CI/CD practice environments
-- 🧪 Service deployment & troubleshooting scenarios
+- Ubuntu environments via Docker (Apple Silicon ARM)
+- Networking & VLSM subnetting labs
+- DNS-level filtering with Pi-hole
+- Raspberry Pi infrastructure experiments
+- Git workflow simulations
+- CI/CD practice environments
+- Service deployment & troubleshooting scenarios
 
 My homelab is where theory becomes production-style thinking.
 
@@ -88,7 +85,9 @@ Studying and practicing:
 ---
 
 ## 💡 Engineering Philosophy
+
 > "the unspoken in builing phase, comes up in deployment"
+
 > "If you can't deploy it, automate it, and scale it — you don't fully understand it."
 
 ---
