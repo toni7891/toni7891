@@ -68,12 +68,16 @@ Studying and practicing:
 ## 🛠 Tech Stack
 
 ### Infrastructure
-- Linux (Ubuntu)
+- Linux (Ubuntu, Kali)
 - Networking fundamentals
 - System troubleshooting
 
 ### DevOps
 - Docker
+- Kubernetes
+- Jenkins
+- Terraform
+- Grafana
 - Git
 - Bash
 - CI/CD concepts
