@@ -6,6 +6,9 @@
   <img src="https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-Version_Control-F05032?logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS_Bedrock-GenAI-FF9900?logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-FastAPI-009688?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-Scripting-121011?logo=gnubash&logoColor=white" />
 </p>
 
@@ -13,14 +16,15 @@
 
 ##  About Me
 
-I’m a **Junior DevOps Engineer** building real-world infrastructure skills through hands-on labs, containerized environments, and cloud architecture practice.
+I'm a **Junior DevOps Engineer** building real-world infrastructure skills through hands-on labs, containerized environments, cloud architecture practice, and full-stack application development.
 
-I focus on understanding systems deeply — from networking fundamentals to scalable cloud design.
+I focus on understanding systems deeply — from networking fundamentals to scalable cloud design and AI-integrated backends.
 
 🔹 Container-first mindset  
 🔹 Strong Linux foundation  
 🔹 Cloud-oriented infrastructure thinking  
 🔹 Automation-driven workflows  
+🔹 Full-stack development with AI integration  
 
 ---
 
@@ -48,6 +52,23 @@ The homelab environment is used to model infrastructure behavior, validate confi
 
 ---
 
+## 💼 Software Projects
+
+### 4RCH3R — Investment Terminal
+
+A full-stack portfolio tracking application with AI-powered investment insights.
+
+- **Backend:** Python FastAPI serving REST endpoints with real-time price data via yfinance
+- **Database:** MongoDB Atlas — three-collection-per-portfolio design (positions, snapshots, trade log)
+- **Frontend:** Vanilla JS modular architecture (state, charts, portfolio, modals, chat, detail views)
+- **AI Chat:** Local LLM integration (LM Studio / Ollama) with DuckDuckGo web search augmentation
+- **Cloud Deployment branch:** AWS Bedrock Guardrails integration, SSM parameter store with pagination fix, tax calculation with loss offset logic
+- **Presentation layer:** AWS Bedrock architecture presentation and deployment documentation
+
+> Bridging local AI inference with cloud-grade guardrails for a production-ready deployment path.
+
+---
+
 ## ☁️ Cloud Journey
 
 Currently preparing for:
@@ -62,6 +83,10 @@ Studying and practicing:
 - S3 & storage strategies
 - High-availability system design
 - Cost & scalability optimization
+
+**Hands-on AWS experience:**
+- AWS Bedrock Guardrails (content filtering for LLM applications)
+- AWS SSM Parameter Store (secure config management)
 
 ---
 
@@ -83,12 +108,19 @@ Studying and practicing:
 - CI/CD concepts
 
 ### Cloud
-- AWS (in progress)
+- AWS (in progress → SAA)
+- AWS Bedrock (Guardrails, SSM)
 - Infrastructure design principles
+
+### Backend & Full-Stack
+- Python / FastAPI
+- MongoDB Atlas
+- Vanilla JS
+- REST API design
 
 ---
 
-## 📈 What I’m Building Toward
+## 📈 What I'm Building Toward
 
 - Kubernetes mastery
 - Infrastructure as Code (Terraform)
@@ -100,7 +132,7 @@ Studying and practicing:
 
 ## 💡 Engineering Philosophy
 
-> "the unspoken in builing phase, comes up in deployment"
+> "the unspoken in building phase, comes up in deployment"
 
 > "If you can't deploy it, automate it, and scale it — you don't fully understand it."
 
