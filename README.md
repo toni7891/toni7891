@@ -4,50 +4,65 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-Version_Control-F05032?logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?logo=githubactions&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS_Bedrock-GenAI-FF9900?logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-FastAPI-009688?logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-Scripting-121011?logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ollama-Local_LLM-000000?logo=ollama&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-Version_Control-F05032?logo=git&logoColor=white" />
 </p>
 
 ---
 
-##  About Me
+## About Me
 
-I'm a **Junior DevOps Engineer** building real-world infrastructure skills through hands-on labs, containerized environments, cloud architecture practice, and full-stack application development.
+Junior DevOps Engineer. I build infrastructure skills hands-on — containerized labs, cloud architecture, networking, and AI-integrated backends.
 
-I focus on understanding systems deeply — from networking fundamentals to scalable cloud design and AI-integrated backends.
+I care about understanding systems end-to-end: from subnet planning and switch config to scalable cloud design and production deployment paths.
 
-🔹 Container-first mindset  
-🔹 Strong Linux foundation  
-🔹 Cloud-oriented infrastructure thinking  
-🔹 Automation-driven workflows  
-🔹 Full-stack development with AI integration  
+- Container-first mindset
+- Strong Linux and networking foundation
+- Automation-driven workflows
+- Full-stack development with AI integration
 
 ---
 
-## 🏗 Homelab & Infrastructure Projects
+## 📊 GitHub Stats
 
-- Designed isolated Ubuntu-based container environments for reproducible development and testing (ARM architecture)
-- Designed multi-router and multi-switch topologies using Cisco Cisco Catalyst 2960, Cisco SG200-18...
-- Configured static and dynamic routing (OSPF)
-- Implemented VLAN segmentation and inter-VLAN routing
-- Configured trunking (802.1Q) and access layer switching
-- Implemented redundancy mechanisms (STP concepts, gateway redundancy scenarios)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=toni7891&show_icons=true&theme=dark&hide_border=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=toni7891&layout=compact&theme=dark&hide_border=true" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=toni7891&theme=dark&hide_border=true" />
+</p>
+
+---
+
+## 🏗 Homelab & Infrastructure
+
+**Networking**
+- Multi-router and multi-switch topologies — Cisco Catalyst 2960, SG200-18
+- Static and dynamic routing (OSPF), VLAN segmentation, inter-VLAN routing
+- Trunking (802.1Q), STP, gateway redundancy, VLSM-based subnet planning
+- Local DNS filtering and traffic control at the network level
+
+**Compute & Containers**
+- Isolated Ubuntu container environments for reproducible development and testing (ARM)
+- Raspberry Pi infrastructure services for network-level experimentation
+- Container lifecycle management, environment reproducibility, failure scenario simulation
+
+**Operations**
 - Validated connectivity, failover behavior, and traffic flow through structured testing
-- Modeled network segmentation scenarios including VLSM-based subnet planning and traffic isolation
-- Implemented local DNS filtering and traffic control mechanisms
-- Built Raspberry Pi-based infrastructure services for network-level experimentation
-- Simulated deployment pipelines and failure scenarios to validate system behavior
-- Practiced container lifecycle management and environment reproducibility
-- Conducted troubleshooting exercises focused on networking, permissions, and service reliability
+- Troubleshooting exercises across networking, permissions, and service reliability
 
-The homelab environment is used to model infrastructure behavior, validate configurations, and strengthen operational understanding under controlled conditions.
-
-<p align="Center">
-  <img src ="https://github.com/toni7891/devops-course/blob/2718947a3c0d4a6edc6aa61f726d1e8e136a07f5/my%20first%20website/HomeNet.drawio.png">
+<p align="center">
+  <img src="https://github.com/toni7891/devops-course/blob/2718947a3c0d4a6edc6aa61f726d1e8e136a07f5/my%20first%20website/HomeNet.drawio.png">
 </p>
 
 ---
@@ -56,88 +71,75 @@ The homelab environment is used to model infrastructure behavior, validate confi
 
 ### 4RCH3R — Investment Terminal
 
-A full-stack portfolio tracking application with AI-powered investment insights.
+Full-stack portfolio tracker with AI-powered investment insights.
 
-- **Backend:** Python FastAPI serving REST endpoints with real-time price data via yfinance
-- **Database:** MongoDB Atlas — three-collection-per-portfolio design (positions, snapshots, trade log)
+- **Backend:** Python FastAPI — REST endpoints, real-time price data via yfinance
+- **Database:** MongoDB Atlas — three-collection design per portfolio (positions, snapshots, trade log)
 - **Frontend:** Vanilla JS modular architecture (state, charts, portfolio, modals, chat, detail views)
-- **AI Chat:** Local LLM integration (LM Studio / Ollama) with DuckDuckGo web search augmentation
-- **Cloud Deployment branch:** AWS Bedrock Guardrails integration, SSM parameter store with pagination fix, tax calculation with loss offset logic
-- **Presentation layer:** AWS Bedrock architecture presentation and deployment documentation
+- **AI Chat:** Local LLM via LM Studio / Ollama with DuckDuckGo search augmentation
+- **Cloud branch:** AWS Bedrock Guardrails, SSM Parameter Store, tax calculation with loss offset logic
 
-> Bridging local AI inference with cloud-grade guardrails for a production-ready deployment path.
+> Local AI inference paired with cloud-grade guardrails — a production-ready deployment path.
 
 ---
 
-## ☁️ Cloud Journey
+## ☁️ Cloud
 
-Currently preparing for:
+**Certification target:** AWS Solutions Architect – Associate
 
-🎯 **AWS Solutions Architect – Associate**
+**Studying:** VPC design, EC2 & Auto Scaling, IAM, S3, high-availability architecture, cost optimization
 
-Studying and practicing:
-
-- VPC architecture design
-- EC2 & Auto Scaling
-- IAM & security principles
-- S3 & storage strategies
-- High-availability system design
-- Cost & scalability optimization
-
-**Hands-on AWS experience:**
-- AWS Bedrock Guardrails (content filtering for LLM applications)
-- AWS SSM Parameter Store (secure config management)
+**Hands-on:** AWS Bedrock Guardrails (LLM content filtering), AWS SSM Parameter Store (secure config management)
 
 ---
 
 ## 🛠 Tech Stack
 
-### Infrastructure
-- Linux (Ubuntu, Kali)
-- Networking fundamentals
-- System troubleshooting
-
-### DevOps
-- Docker
-- Kubernetes
-- Jenkins
-- Terraform
-- Grafana
-- Git
-- Bash
-- CI/CD concepts
-
-### Cloud
-- AWS (in progress → SAA)
-- AWS Bedrock (Guardrails, SSM)
-- Infrastructure design principles
-
-### Backend & Full-Stack
-- Python / FastAPI
-- MongoDB Atlas
-- Vanilla JS
-- REST API design
+| Area | Tools |
+|---|---|
+| **Infrastructure** | Linux (Ubuntu, Kali), networking, system troubleshooting |
+| **DevOps** | Docker, Kubernetes, Terraform, Jenkins, Grafana, GitHub Actions, Bash |
+| **Cloud** | AWS (SAA in progress), Bedrock, SSM |
+| **Backend** | Python, FastAPI, MongoDB Atlas, REST API design |
+| **Frontend** | Vanilla JS |
+| **AI / LLM** | AWS Bedrock Guardrails, LM Studio, Ollama, Claude Code, RAG with web search |
 
 ---
 
-## 📈 What I'm Building Toward
+## 📈 Building Toward
 
-- Kubernetes mastery
-- Infrastructure as Code (Terraform)
-- Production-ready CI/CD pipelines
-- Cloud-native architectures
-- Scalable startup-grade systems
+- Kubernetes in production
+- Infrastructure as Code at scale (Terraform)
+- Full CI/CD pipelines
+- Cloud-native, startup-grade systems
 
 ---
 
 ## 💡 Engineering Philosophy
 
-> "the unspoken in building phase, comes up in deployment"
+> *"The unspoken in the building phase comes up in deployment."*
 
-> "If you can't deploy it, automate it, and scale it — you don't fully understand it."
+> *"If you can't deploy it, automate it, and scale it — you don't fully understand it."*
+
+---
+
+## ⚡ Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+---
+
+## 📬 Contact
+
+<p align="center">
+  <a href="mailto:toni7891@gmail.com">
+    <img src="https://img.shields.io/badge/Email-toni7891%40gmail.com-D14836?logo=gmail&logoColor=white" />
+  </a>
+</p>
 
 ---
 
 <p align="center">
-  ⚡ Building. Breaking. Automating. Scaling.
+  Building. Breaking. Automating. Scaling.
 </p>
