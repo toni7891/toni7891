@@ -20,14 +20,11 @@
 
 ## About Me
 
-Junior DevOps Engineer. I build infrastructure skills hands-on: containerized labs, cloud architecture, networking, and AI-integrated backends.
+I'm a Junior DevOps Engineer who builds things to learn things.
 
-I care about understanding systems end-to-end, from subnet planning and switch config to scalable cloud design and production deployment paths.
+My homelab runs Cisco switches, VLANs, OSPF routing, and ARM containers. My projects ship to PyPI and Kubernetes. I built DeployGuard because I wanted canary deployments with real guardrails, not just a tutorial. I built 4RCH3R because I wanted to understand how AI-integrated backends actually work end-to-end.
 
-- Container-first mindset
-- Strong Linux and networking foundation
-- Automation-driven workflows
-- Full-stack development with AI integration
+Currently studying for AWS SAA and working toward running production-grade infrastructure on my own.
 
 ---
 
