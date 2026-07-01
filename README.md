@@ -20,14 +20,67 @@
 
 ## About Me
 
-Junior DevOps Engineer. I build infrastructure skills hands-on — containerized labs, cloud architecture, networking, and AI-integrated backends.
+Junior DevOps Engineer. I build infrastructure skills hands-on: containerized labs, cloud architecture, networking, and AI-integrated backends.
 
-I care about understanding systems end-to-end: from subnet planning and switch config to scalable cloud design and production deployment paths.
+I care about understanding systems end-to-end, from subnet planning and switch config to scalable cloud design and production deployment paths.
 
 - Container-first mindset
 - Strong Linux and networking foundation
 - Automation-driven workflows
 - Full-stack development with AI integration
+
+---
+
+## 💼 Software Projects
+
+### 4RCH3R - Investment Terminal
+
+Full-stack portfolio tracker with AI-powered investment insights.
+
+- **Backend:** Python FastAPI, REST endpoints, real-time price data via yfinance
+- **Database:** MongoDB Atlas, three-collection design per portfolio (positions, snapshots, trade log)
+- **Frontend:** Vanilla JS modular architecture (state, charts, portfolio, modals, chat, detail views)
+- **AI Chat:** Local LLM via LM Studio / Ollama with DuckDuckGo search augmentation
+- **Cloud branch:** AWS Bedrock Guardrails, SSM Parameter Store, tax calculation with loss offset logic
+
+> Local AI inference paired with cloud-grade guardrails for a production-ready deployment path.
+
+---
+
+### DeployGuard - Kubernetes & Terraform Policy Validator
+
+Python package that validates Kubernetes manifests and Terraform configs against a security and reliability policy ruleset. Acts as a senior reviewer: every violation explains why it matters and what to fix.
+
+- **Core engine:** Python CLI and importable package (`deployguard.guard`) with a configurable rule system
+- **K8s rules:** resource limits, liveness/readiness probes, security context, image pinning, root user detection, privileged containers, service account token exposure
+- **Terraform rules:** IAM least-privilege checks
+- **Integrations:** kubeconform for schema validation, Trivy for misconfiguration scanning
+- **Output:** grouped by file, violation-level (ERROR/WARN), with why-it-matters and what-to-add per finding
+- **Config:** per-project `.deployguard/config.yaml` for rule-level overrides and strict mode
+- **Claude Code integration:** `/guard` skill for in-editor manifest review
+
+---
+
+## ☁️ Cloud
+
+**Certification target:** AWS Solutions Architect - Associate
+
+**Studying:** VPC design, EC2 & Auto Scaling, IAM, S3, high-availability architecture, cost optimization
+
+**Hands-on:** AWS Bedrock Guardrails (LLM content filtering), AWS SSM Parameter Store (secure config management)
+
+---
+
+## 🛠 Tech Stack
+
+| Area | Tools |
+|---|---|
+| **Infrastructure** | Linux (Ubuntu, Kali), networking, system troubleshooting |
+| **DevOps** | Docker, Kubernetes, Terraform, Jenkins, Grafana, GitHub Actions, Bash |
+| **Cloud** | AWS (SAA in progress), Bedrock, SSM |
+| **Backend** | Python, FastAPI, MongoDB Atlas, REST API design |
+| **Frontend** | Vanilla JS |
+| **AI / LLM** | AWS Bedrock Guardrails, LM Studio, Ollama, Claude Code, RAG with web search |
 
 ---
 
@@ -48,7 +101,7 @@ I care about understanding systems end-to-end: from subnet planning and switch c
 ## 🏗 Homelab & Infrastructure
 
 **Networking**
-- Multi-router and multi-switch topologies — Cisco Catalyst 2960, SG200-18
+- Multi-router and multi-switch topologies with Cisco Catalyst 2960, SG200-18
 - Static and dynamic routing (OSPF), VLAN segmentation, inter-VLAN routing
 - Trunking (802.1Q), STP, gateway redundancy, VLSM-based subnet planning
 - Local DNS filtering and traffic control at the network level
@@ -65,45 +118,6 @@ I care about understanding systems end-to-end: from subnet planning and switch c
 <p align="center">
   <img src="https://github.com/toni7891/devops-course/blob/2718947a3c0d4a6edc6aa61f726d1e8e136a07f5/my%20first%20website/HomeNet.drawio.png">
 </p>
-
----
-
-## 💼 Software Projects
-
-### 4RCH3R — Investment Terminal
-
-Full-stack portfolio tracker with AI-powered investment insights.
-
-- **Backend:** Python FastAPI — REST endpoints, real-time price data via yfinance
-- **Database:** MongoDB Atlas — three-collection design per portfolio (positions, snapshots, trade log)
-- **Frontend:** Vanilla JS modular architecture (state, charts, portfolio, modals, chat, detail views)
-- **AI Chat:** Local LLM via LM Studio / Ollama with DuckDuckGo search augmentation
-- **Cloud branch:** AWS Bedrock Guardrails, SSM Parameter Store, tax calculation with loss offset logic
-
-> Local AI inference paired with cloud-grade guardrails — a production-ready deployment path.
-
----
-
-## ☁️ Cloud
-
-**Certification target:** AWS Solutions Architect – Associate
-
-**Studying:** VPC design, EC2 & Auto Scaling, IAM, S3, high-availability architecture, cost optimization
-
-**Hands-on:** AWS Bedrock Guardrails (LLM content filtering), AWS SSM Parameter Store (secure config management)
-
----
-
-## 🛠 Tech Stack
-
-| Area | Tools |
-|---|---|
-| **Infrastructure** | Linux (Ubuntu, Kali), networking, system troubleshooting |
-| **DevOps** | Docker, Kubernetes, Terraform, Jenkins, Grafana, GitHub Actions, Bash |
-| **Cloud** | AWS (SAA in progress), Bedrock, SSM |
-| **Backend** | Python, FastAPI, MongoDB Atlas, REST API design |
-| **Frontend** | Vanilla JS |
-| **AI / LLM** | AWS Bedrock Guardrails, LM Studio, Ollama, Claude Code, RAG with web search |
 
 ---
 
