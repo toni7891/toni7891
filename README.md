@@ -22,7 +22,7 @@
 
 I'm a Junior DevOps Engineer who builds things to learn things.
 
-My homelab runs Cisco switches, VLANs, OSPF routing, and ARM containers. My projects ship to PyPI and Kubernetes. I built DeployGuard because I wanted canary deployments with real guardrails, not just a tutorial. I built 4RCH3R because I wanted to understand how AI-integrated backends actually work end-to-end.
+I built DeployGuard because I wanted to understand what safe Kubernetes deployments actually look like — canary rollouts, Prometheus gates, policy enforcement, auto-rollback. It's published on PyPI and Homebrew. I built an investment terminal to understand how AI-integrated backends work end-to-end. Both projects run CI/CD pipelines, ship real artifacts, and live on AWS.
 
 Currently studying for AWS SAA and working toward running production-grade infrastructure on my own.
 
