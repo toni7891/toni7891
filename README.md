@@ -34,13 +34,13 @@ I care about understanding systems end-to-end: from subnet planning and switch c
 ## 📊 GitHub Stats
 
 <div align="center">
-  <table>
-    <tr>
-      <td><img src="https://github-readme-stats.vercel.app/api?username=toni7891&show_icons=true&theme=dark&hide_border=true&count_private=true" /></td>
-      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=toni7891&layout=compact&theme=dark&hide_border=true" /></td>
-    </tr>
-  </table>
   <img src="https://streak-stats.demolab.com?user=toni7891&theme=dark&hide_border=true" />
+  <br/><br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=toni7891&theme=react-dark&hide_border=true" />
+  <br/><br/>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=toni7891.toni7891&left_color=grey&right_color=orange" />
+  <br/><br/>
+  <img src="https://raw.githubusercontent.com/toni7891/toni7891/output/github-snake-dark.svg" />
 </div>
 
 ---
