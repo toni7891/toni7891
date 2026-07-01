@@ -33,6 +33,29 @@ I care about understanding systems end-to-end, from subnet planning and switch c
 
 ## 💼 Software Projects
 
+### DeployGuard - Zero-to-Kubernetes Deployment CLI
+
+CLI tool (`dg`, PyPI: `dg-deploy`) that takes a developer from zero to a safely-deployed FastAPI+Postgres service on Kubernetes in four commands:
+
+```bash
+dg init payments-api   # scaffold service, run guard
+dg cost                # static cost report on infra
+dg provision           # minikube (local) or k3s on EC2 Spot (aws)
+dg deploy              # build, push, canary rollout, auto-rollback
+```
+
+- **Guard engine:** 7 policy rules (resource limits, probes, security context, image pinning, root user, privileged containers, IAM) + kubeconform schema validation + Trivy CVE scanning. Blocks deploy on any violation. Every finding includes why-it-matters and what-to-fix.
+- **Deploy engine:** blue/green precheck with Rich Live panel, canary rollout at 10/50/100% via nginx-ingress weights, Prometheus error-rate gate at each step, auto-rollback on gate fail, Postgres audit log for every deploy event
+- **Cost analysis:** Terraform static parse + infracost + 8 cost-policy rules before a single resource is provisioned
+- **AWS target:** k3s on EC2 Spot via Terraform, ECR image registry, no NAT Gateway (~$6/mo running, ~$3.50/mo paused)
+- **Local target:** minikube (profile: deployguard), ingress via `minikube addons enable ingress`
+- **LLM module:** LM Studio adapter for LLM-assisted scaffold generation; AWS Bedrock adapter in progress
+- **Published:** v0.1.0 on PyPI via GitHub Actions Trusted Publisher (OIDC, no stored secrets)
+- **Test suite:** 26+ unit tests across guard, cost, deploy engine, rollout, precheck, metrics, audit, ECR, LLM, and a smoke E2E test gated on CI branch protection
+- **Claude Code skill:** `/guard` for in-editor manifest review without running the full CLI
+
+---
+
 ### 4RCH3R - Investment Terminal
 
 Full-stack portfolio tracker with AI-powered investment insights.
@@ -44,20 +67,6 @@ Full-stack portfolio tracker with AI-powered investment insights.
 - **Cloud branch:** AWS Bedrock Guardrails, SSM Parameter Store, tax calculation with loss offset logic
 
 > Local AI inference paired with cloud-grade guardrails for a production-ready deployment path.
-
----
-
-### DeployGuard - Kubernetes & Terraform Policy Validator
-
-Python package that validates Kubernetes manifests and Terraform configs against a security and reliability policy ruleset. Acts as a senior reviewer: every violation explains why it matters and what to fix.
-
-- **Core engine:** Python CLI and importable package (`deployguard.guard`) with a configurable rule system
-- **K8s rules:** resource limits, liveness/readiness probes, security context, image pinning, root user detection, privileged containers, service account token exposure
-- **Terraform rules:** IAM least-privilege checks
-- **Integrations:** kubeconform for schema validation, Trivy for misconfiguration scanning
-- **Output:** grouped by file, violation-level (ERROR/WARN), with why-it-matters and what-to-add per finding
-- **Config:** per-project `.deployguard/config.yaml` for rule-level overrides and strict mode
-- **Claude Code integration:** `/guard` skill for in-editor manifest review
 
 ---
 
@@ -76,7 +85,7 @@ Python package that validates Kubernetes manifests and Terraform configs against
 | Area | Tools |
 |---|---|
 | **Infrastructure** | Linux (Ubuntu, Kali), networking, system troubleshooting |
-| **DevOps** | Docker, Kubernetes, Terraform, Jenkins, Grafana, GitHub Actions, Bash |
+| **DevOps** | Docker, Kubernetes, Terraform, Jenkins, Prometheus, GitHub Actions, Bash |
 | **Cloud** | AWS (SAA in progress), Bedrock, SSM |
 | **Backend** | Python, FastAPI, MongoDB Atlas, REST API design |
 | **Frontend** | Vanilla JS |
