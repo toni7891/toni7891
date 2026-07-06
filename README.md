@@ -162,7 +162,7 @@ Full-stack portfolio tracker with AI-powered investment insights.
 ---
 
 <p align="center">
-  Building. Breaking. Automating. Scaling.
+  Hi, I’m Tony. I’m a DevOps and Cloud Infrastructure Engineer who loves building resilient, automated systems from scratch handling everything from containerization to full CI/CD pipelines. I’m a self-driven learner with sharp troubleshooting instincts and a passion for owning the entire deployment process.
 </p>
 
 
