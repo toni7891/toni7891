@@ -16,6 +16,10 @@
   <img src="https://img.shields.io/badge/Git-Version_Control-F05032?logo=git&logoColor=white" />
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/toni7891/toni7891/output/github-snake-dark.svg" />
+</p>
+
 ---
 
 ## About Me
@@ -98,8 +102,6 @@ Full-stack portfolio tracker with AI-powered investment insights.
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=toni7891&theme=react-dark&hide_border=true" />
   <br/><br/>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=toni7891.toni7891&left_color=grey&right_color=orange" />
-  <br/><br/>
-  <img src="https://raw.githubusercontent.com/toni7891/toni7891/output/github-snake-dark.svg" />
 </div>
 
 ---
