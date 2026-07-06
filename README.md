@@ -26,6 +26,8 @@ I built DeployGuard because I wanted to understand what safe Kubernetes deployme
 
 Currently studying for AWS SAA and working toward running production-grade infrastructure on my own.
 
+Shoutout to [Guy](https://github.com/GuyGuyPeres) for helping test and review some of these projects.
+
 ---
 
 ## 💼 Software Projects
